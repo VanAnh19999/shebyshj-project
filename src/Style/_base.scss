@@ -1,0 +1,22 @@
+@import 'variable';
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-decoration: underline;
+    text-underline-offset: 12px;
+    font-weight: 800;
+}

@@ -1,0 +1,24 @@
+.collection{
+    margin-left: 1rem;
+    text-align: center;
+    &__fall-img{
+       
+        img{
+            width: 100%;
+            vertical-align:middle;
+        }
+    }
+   &__fall-content{
+    margin: 1rem;
+    h3{
+       
+        font-size: small;
+        font-weight: bold;
+    }
+    p{
+        padding: 0;
+        margin: 0;
+        font-size: small;
+    }
+   }
+}

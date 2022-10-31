@@ -1,0 +1,41 @@
+.row{
+    padding: 0;
+}
+.log__img{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+        img{
+            height: 100%;
+            width: 100%;
+            padding-top: 3rem;
+        }  
+    &-txt{
+    position: absolute;
+    align-items: center;
+    left: 45%;
+    color: white;
+    top: 50%;
+}  
+}
+h1{
+    text-align: center;
+}
+.collection{
+    .collection__list-product{
+        text-align: center;
+        &-img{
+            img{
+                height: 90%;
+                width: 90%;
+            }
+        }
+        &-txt{
+            h3{
+                margin-top: 1rem;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+} 
